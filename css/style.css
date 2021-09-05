@@ -1,0 +1,115 @@
+body{
+    background:url(../imgs/ashim-d-silva-NTTJsPPlQOk-unsplash.jpg);
+    background-size:cover;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+section{
+    background:rgba(255,255,255,.1);
+    backdrop-filter:blur(30px);
+    height:100vh;
+    width:50%;
+    position:absolute;
+    right:0px;
+}
+.navbar{
+    padding-left:50px;
+    position:absolute;
+    right:-750px;   
+    transition: all 2s;
+}
+.change{
+    right:0px;
+}
+.hamburger-menu{
+    width:35px;
+    height:30px;
+    position:fixed;
+    top:10px;
+    right:50px;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.line{
+    width:100%;
+    height:3px;
+    background:#eee;
+    transition:all 1s;
+}
+.change .line-1{
+    transform: rotateZ(-405deg) translate(-8px, 6px);
+}
+.change .line-2{
+    opacity:0;
+}
+.change .line-3{
+    transform: rotateZ(405deg) translate(-8px, -6px);
+}
+nav{
+    padding:14px 0px 0px 10px;
+}
+nav ul{
+    display:flex;
+}
+nav ul li{
+    margin-right:150px;
+    list-style:none;
+}
+nav ul li > a{
+    text-decoration:none;
+    color:#eee;
+    font-size:18px;
+}
+.sesion1__content{
+
+    margin-top:160px;
+    padding:0px 150px;
+    color:#eee;
+}
+.sesion1__content > h2{
+    font-size:60px;
+}
+
+.sesion1__header2{
+    position: absolute;
+    width:80%;   
+    right:-250px;
+    top:400px;
+    transform:rotate(90deg);
+
+
+}
+.sesion1__header2 ul{
+    display:flex;
+    justify-content:space-around;
+    
+}
+.sesion1__header2 ul li {
+    
+    list-style:none;
+}
+.sesion1__header2 ul li > a{
+    text-decoration:none;
+    color:#eee;
+}
+.bx-toggle-right{
+    font-size:28px;
+}
+.sesion1__mark{
+    color:#eee;
+    position:absolute;
+    bottom:10px;
+ 
+}
+.sesion1__mark > hr{
+    outline:1px  solid #eee;
+    width:50px;
+
+}
+.sesion1__mark > span{
+    position:absolute;
+    margin-top:-29px;
+    margin-left:60px;
+}
